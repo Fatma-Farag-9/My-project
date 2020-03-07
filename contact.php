@@ -8,6 +8,7 @@ $page_name = "Contact";
 
         include "include/header.php";
         include "include/navbar.php";
+        include "function.php";
     
 ?>    
 <?php 

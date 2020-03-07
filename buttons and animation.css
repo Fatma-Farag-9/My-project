@@ -1,0 +1,41 @@
+button {
+    padding: 12px 24px;
+    background: #6FC1D2;
+    border: 1px solid #F6F7F0;
+    color: #F6F7F0!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    background-color: darkslategrey ;
+    border: 1px solid darkslategrey;
+}
+.navbar ul li:hover {
+    background-color: #002b3485;
+    border-radius: 7px;
+    transition: all 0.5s ease-in-out;
+}
+.slider .form h1, .slider .form p, .slider .form button{
+    animation: slide-right 1s ease-in-out forwards ;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(850px);
+  }
+}
+.slider .form p{
+    
+    animation-delay: 0.4s  ;
+}
+.slider .form button{
+    animation-delay: 0.6s  ;
+}
+.banner-image img:hover{
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}

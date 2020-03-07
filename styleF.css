@@ -1,0 +1,74 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    background-color: #141a2d;
+    background-size: cover;
+    height: 700px;
+}
+
+.container {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:280px;
+    
+}
+.container h1 {
+    float: left;
+    font-size: 30px;
+    border-bottom: 3px solid #3f844e;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+.form .textbox{
+    border-bottom: 3px solid #3f844e;
+    margin-bottom: 8px 0px;
+    padding: 8px 0px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 25px;
+        
+}
+.textbox i{
+    float: left;
+    width:20%;
+    text-align: center;
+}
+.textbox input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 15px;
+    float: right;
+    width:80%;
+    padding: 5px 0px;
+    margin-left: 0px;
+}
+.Error {
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: #18908ae3;
+    text-transform: capitalize;
+}
+
+.form .btn {
+    width: 50%;
+    border: 3px solid #3f844e;
+    margin-top: 25px;
+    padding: 5px;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 4px;
+    float: right;
+}
